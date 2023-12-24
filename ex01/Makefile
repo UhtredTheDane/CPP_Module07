@@ -6,13 +6,13 @@
 #    By: agengemb <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/03 18:01:24 by agengemb          #+#    #+#              #
-#    Updated: 2023/12/21 16:18:43 by agengemb         ###   ########.fr        #
+#    Updated: 2023/12/24 17:06:53 by agengemb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -MMD
-NAME = first_cog
+NAME = iter_template
 SRC= main.cpp
 OBJ= $(SRC:.cpp=.o)
 DEP= ${OBJ:.o=.d}

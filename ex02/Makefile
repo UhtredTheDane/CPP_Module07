@@ -6,13 +6,13 @@
 #    By: agengemb <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/07/03 18:01:24 by agengemb          #+#    #+#              #
-#    Updated: 2023/12/23 19:50:45 by agengemb         ###   ########.fr        #
+#    Updated: 2023/12/24 17:07:11 by agengemb         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 CC = c++
 CFLAGS = -Wall -Wextra -Werror -std=c++98 -MMD
-NAME = first_cog
+NAME = array_template
 SRC= main.cpp
 OBJ= $(SRC:.cpp=.o)
 DEP= ${OBJ:.o=.d}

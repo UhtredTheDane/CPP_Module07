@@ -6,11 +6,9 @@
 /*   By: agengemb <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/21 16:04:21 by agengemb          #+#    #+#             */
-/*   Updated: 2023/12/21 16:23:38 by agengemb         ###   ########.fr       */
+/*   Updated: 2023/12/24 16:45:49 by agengemb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <iostream>
 
 template <typename T>
 void swap(T& a, T& b)
@@ -22,7 +20,7 @@ void swap(T& a, T& b)
 }
 
 template <typename T>
-const T& min(const T& a, const T& b)
+T const& min(const T& a, const T& b)
 {
 	if (a < b)
 		return (a);
@@ -30,7 +28,7 @@ const T& min(const T& a, const T& b)
 }
 
 template <typename T>
-const T& max(const T& a, const T& b)
+T const& max(const T& a, const T& b)
 {
 	if (a > b)
 		return (a);
